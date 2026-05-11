@@ -1,11 +1,17 @@
 import 'package:flutter/material.dart';
+
 import 'package:movie/core/config/routes/app_routes.dart';
 import 'package:movie/core/config/routes/page_route_name.dart';
 import 'package:movie/core/config/theme/app_theme_manager.dart';
-
 import 'features/onboarding/presentation/screens/onboarding_screen.dart';
+import 'services/firebase_service.dart';
 
-void main() {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+
+  // Initialize Firebase
+  await FirebaseService.initialize();
+
   runApp(const MyApp());
 }
 
