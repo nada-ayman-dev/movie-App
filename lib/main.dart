@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:movie/core/config/routes/app_routes.dart';
+import 'package:movie/core/config/routes/page_route_name.dart';
+import 'package:movie/core/config/theme/app_theme_manager.dart';
 
 import 'features/onboarding/presentation/screens/onboarding_screen.dart';
 
@@ -14,11 +17,10 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: OnBoardingScreen(),
-      theme: ThemeData(
-        scaffoldBackgroundColor: Colors.black,
-      ),
+      theme: AppThemeManager.getTheme(),
       debugShowCheckedModeBanner: false,
+      initialRoute: PageRouteName.initial,
+      onGenerateRoute: AppRoutes.onGenerateRoute,
     );
   }
 }
-

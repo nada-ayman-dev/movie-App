@@ -1,5 +1,5 @@
-import 'package:movie/core/gen/assets.gen.dart';
 
+import '../../../core/gen/assets.gen.dart' show Assets;
 import '../data/onboarding_data.dart';
 
 class OnBoardingData {
