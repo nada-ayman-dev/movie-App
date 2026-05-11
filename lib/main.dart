@@ -16,6 +16,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      title: "movie app",
       home: OnBoardingScreen(),
       theme: AppThemeManager.getTheme(),
       debugShowCheckedModeBanner: false,

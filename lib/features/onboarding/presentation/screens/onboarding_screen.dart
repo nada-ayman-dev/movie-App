@@ -79,6 +79,8 @@ class _OnBoardingScreenState
 
             onBack: previousPage,
 
+            isFirstPage: currentIndex == 0,
+
             isLastPage:
             currentIndex ==
                 OnBoardingData.items.length - 1,
