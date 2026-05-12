@@ -1,0 +1,90 @@
+{
+  "project_info": {
+    "project_number": "86032851224",
+    "project_id": "movie-ef056",
+    "storage_bucket": "movie-ef056.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:86032851224:android:28909b0dcd003eac347e6d",
+        "android_client_info": {
+          "package_name": "com.example.movie"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "86032851224-cs8r2q1jmq9isq1pfk3ld1jam7vqek9c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.movie",
+            "certificate_hash": "d00179cf3002de0356d33fda08bc5778f72841bf"
+          }
+        },
+        {
+          "client_id": "86032851224-k70rrnq72ul01q0ess7r7g1ehg5937v9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwPoKmQCw1DeGYmbOLDOjNRDXK82LrSec"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "86032851224-k70rrnq72ul01q0ess7r7g1ehg5937v9.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "86032851224-4mbemm1indckn41s5f3ao62afkbfmlk4.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.movie"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:86032851224:android:efbb4af312d51522347e6d",
+        "android_client_info": {
+          "package_name": "com.route.movie"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "86032851224-k70rrnq72ul01q0ess7r7g1ehg5937v9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwPoKmQCw1DeGYmbOLDOjNRDXK82LrSec"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "86032851224-k70rrnq72ul01q0ess7r7g1ehg5937v9.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "86032851224-4mbemm1indckn41s5f3ao62afkbfmlk4.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.movie"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

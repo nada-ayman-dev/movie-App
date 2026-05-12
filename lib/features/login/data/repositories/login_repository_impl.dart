@@ -33,6 +33,16 @@ class LoginRepositoryImpl implements LoginRepository {
     }
   }
 
+  @override
+  Future<Either<Failure, User>> signInWithGoogle() async {
+    try {
+      final userModel = await remoteDataSource.signInWithGoogle();
+      return Right(userModel);
+    } on Exception catch (e) {
+      return Left(AuthenticationFailure(e.toString()));
+    }
+  }
+
   bool _isValidEmail(String email) {
     final emailRegex = RegExp(r'^[^@]+@[^@]+\.[^@]+');
     return emailRegex.hasMatch(email);

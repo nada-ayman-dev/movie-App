@@ -11,4 +11,8 @@ class LoginUseCase {
   Future<Either<Failure, User>> call(String email, String password) {
     return repository.login(email, password);
   }
+
+  Future<Either<Failure, User>> signInWithGoogle() {
+    return repository.signInWithGoogle();
+  }
 }
