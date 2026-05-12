@@ -57,6 +57,8 @@ class _OnBoardingScreenState extends State<OnBoardingScreen> {
 
             onBack: previousPage,
 
+            isFirsPage: currentIndex == 0,
+
             isLastPage: currentIndex == OnBoardingData.items.length - 1,
           );
         },

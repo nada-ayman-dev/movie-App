@@ -10,6 +10,7 @@ class OnBoardingBody extends StatelessWidget {
   final VoidCallback onNext;
   final VoidCallback? onBack;
   final bool isLastPage;
+  final bool isFirsPage;
 
   const OnBoardingBody({
     super.key,
@@ -17,6 +18,7 @@ class OnBoardingBody extends StatelessWidget {
     required this.onNext,
     this.onBack,
     required this.isLastPage,
+    required this.isFirsPage,
   });
 
   @override
@@ -84,7 +86,7 @@ class OnBoardingBody extends StatelessWidget {
                       child: Padding(
                         padding: const EdgeInsets.all(8.0),
                         child: Text(
-                          isLastPage ? 'Finish' : 'Next',style: TextStyle(
+                          isLastPage ? 'Finish' : isFirsPage ? "Explore Now" : 'Next',style: TextStyle(
                           fontSize: 20,
                           fontWeight: FontWeight.bold,
                           color: Colors.black,
